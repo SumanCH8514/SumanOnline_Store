@@ -1,14 +1,14 @@
 <?php
-    session_start();
-    require 'connection.php';
-    if(!isset($_SESSION['email'])){
-        header('location:index.php');
-    }else{
-        $user_id=$_GET['id'];
-        $confirm_query="update users_items set status='Confirmed' where user_id=$user_id";
-        $confirm_query_result=mysqli_query($con,$confirm_query) or die(mysqli_error($con));
-        
-    }
+session_start();
+require 'connection.php';
+if (!isset($_SESSION['email'])) {
+    header('location:index.php');
+} else {
+    $user_id = $_GET['id'];
+    $confirm_query = "update users_items set status='Confirmed' where user_id=$user_id";
+    $confirm_query_result = mysqli_query($con, $confirm_query) or die(mysqli_error($con));
+
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,25 +26,97 @@
         <!-- External CSS -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="shortcut icon" href="https://sumanonline.com/Photos/apple-touch-icon.png" type="fevicon">
+        <style>
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      #cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      #first {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      #first img {
+        margin: 0 auto;
+      }
+
+      #second {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        width: 50%;
+        padding: 20px;
+        background: #f7f7f7;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+      }
+
+      #second p {
+        text-align: center;
+        font-size: 16px;
+      }
+      #second p a {
+        text-decoration: none;
+      }
+      @media only screen and (max-width: 768px) {
+        #second {
+          width: 90%;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        #first img {
+          width: 200px;
+        }
+        #first h1 {
+          font-size: 25px;
+        }
+        #second {
+          width: 95%;
+          padding: 10px;
+        }
+        #second p {
+          font-size: 14px;
+        }
+      }
+    </style>
     </head>
     <body>
         <div>
             <?php
-                require 'header.php';
-            ?>
+require 'header.php';
+?>
             <br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading"></div>
-                            <div class="panel-body">
-                                <p>Your order is confirmed. Thank you for shopping with us. <a href="products.php">Click here</a> to purchase any other item.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="cont">
+      <div id="first">
+        <img
+          src="https://i.gifer.com/7efs.gif"
+          alt="order confirmation status"
+        />
+        <h1>Order Placed Successfully</h1>
+      </div>
+      <div id="second">
+        <p>
+          You Have Selected Pay On Delivery <strong>(COD)</strong>. <br />
+          Your Package will be Delivered within 7 days. <br />
+          <strong>Team SumanOnline Store</strong>
+          <br />
+          Thank you for shopping with us. <br /><a href="index.php"
+            >Click here</a
+          >
+          to purchase any other item.
+        </p>
+      </div>
+      <meta http-equiv="refresh" content="5; url=index.php#mainCont" />
+    </div>
             <footer class="footer">
                <div class="container">
                 <center>

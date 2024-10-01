@@ -1,50 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css">
-</head>
-<body>
-    <div class="navbar">
-        <ul>
-          <li><a href="#">Product</a>
-            <ul class="dropdown">
-              <li><a href="#">Camera</a></li>
-              <li><a href="#">Mobile</a></li>
-              <li><a href="#">Laptop</a></li>
-            </ul>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Conf</title>
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      #cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      #first {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      #first img {
+        margin: 0 auto;
+      }
+
+      #second {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        width: 50%;
+        padding: 20px;
+        background: #f7f7f7;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      #second p {
+        text-align: center;
+        font-size: 16px;
+      }
+      #second p a {
+        text-decoration: none;
+      }
+      @media only screen and (max-width: 768px) {
+        #second {
+          width: 90%;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        #first img {
+          width: 200px;
+        }
+        #first h1 {
+          font-size: 25px;
+        }
+        #second {
+          width: 95%;
+          padding: 10px;
+        }
+        #second p {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cont">
+      <div id="first">
+        <img
+          src="https://i.gifer.com/7efs.gif"
+          alt="order confirmation status"
+        />
+        <h1>Order Placed Successfully</h1>
       </div>
-      
-    <div id="mainCont">
-        <h3>Product Catalog</h3>
-        <div id="cont">
-            <div id="product" class="product">
-                <div class="item">
-                    <img src="img\olympus.jpg" alt="Camera">
-                    <h4>Camera</h4>
-                    <p>Modern new Technology Camera</p>
-                </div>
-                <!-- <div class="item"></div>
-                <div class="item"></div> -->
-            </div>
-            <div id="product" class="product">
-            <div class="item">
-                    <img src="img\olympus.jpg"  alt="Camera">
-                    <h4>Camera</h4>
-                    <p>Modern new Technology Camera</p>
-                </div>
-            </div>
-            <div id="product" class="product">
-            <div class="item">
-                    <img src="img\olympus.jpg" alt="Camera">
-                    <h4>Camera</h4>
-                    <p>Modern new Technology Camera</p>
-                </div>
-            </div>
-        </div>
-</body>
+      <div id="second">
+        <p>
+          You Have Selected Pay On Delivery <strong>(COD)</strong>. <br />
+          Your Package will be Delivered within 7 days. <br />
+          <strong>Team SumanOnline Store</strong>
+          <br />
+          Thank you for shopping with us. <br /><a href="index.php"
+            >Click here</a
+          >
+          to purchase any other item.
+        </p>
+      </div>
+      <meta http-equiv="refresh" content="5; url=index.php" />
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <center>
+          <p>
+            Copyright &copy
+            <a href="https://SumanOnline.Com">SumanOnline Store.</a>| All Rights
+            Reserved.
+          </p>
+        </center>
+      </div>
+    </footer>
+  </body>
 </html>

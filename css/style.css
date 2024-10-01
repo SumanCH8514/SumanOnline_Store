@@ -99,6 +99,24 @@ p {
   margin: 0.3rem 0 0 0;
   margin-bottom: 0.3rem;
 }
+.container {
+  margin-top: 5px;
+}
+.jumbotron {
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+}
+.thumbnail:hover {
+  box-shadow: 3px 5px 13px rgb(139, 135, 123);
+}
+.caption h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.product a {
+  text-decoration: none;
+  color: black;
+}
 /* 000000000000000 */
 
 /* 000000000000000 */
@@ -122,6 +140,9 @@ p {
 @media (min-width: 481px) {
   #autoResize {
     font-size: 16px;
+  }
+  .footer {
+    margin-top: 5px;
   }
 }
 @media (min-width: 641px) {
