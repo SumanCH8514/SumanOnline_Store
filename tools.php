@@ -17,6 +17,12 @@ session_start();
         <!-- External CSS -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="shortcut icon" href="https://sumanonline.com/Photos/apple-touch-icon.png" type="fevicon">
+        <style>
+            #btttn{
+                width: 60%;
+                margin: 5px auto;
+            }
+        </style>
 
     </head>
     <body>
@@ -30,9 +36,11 @@ require 'header.php';
                     <!-- <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p> -->
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary" name="submit">
-          <a href="add_product_view.php" class="text-light" style="text-decoration:none">Go Back</a>
-        </button>
+            <br><br><br>
+        <div id="btttn">
+        <button type="button" class="btn btn-primary btn-lg btn-block"><a href="add_product.php" class="text-light" style="text-decoration:none; color: white;" >Add Product To Database</a></button>
+        <button type="button" class="btn btn-default btn-lg btn-block"><a href="add_product_view.php" class="text-light" style="text-decoration:none">View Product from Database</a></button>
+        </div>
             <br><br><br><br><br><br><br><br>
            <footer class="footer">
                <div class="container">

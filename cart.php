@@ -15,6 +15,7 @@ if ($no_of_user_products == 0) {
         <script>
         window.alert("No items in the cart!!");
         </script>
+        <meta http-equiv="refresh" content="0; url=index.php" />
     <?php
 } else {
     while ($row = mysqli_fetch_array($user_products_result)) {

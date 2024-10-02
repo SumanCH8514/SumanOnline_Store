@@ -9,7 +9,7 @@ session_start();
       href="https://sumanonline.com/Photos/apple-touch-icon.png"
       type="fevicon"
     />
-    <title>SumanOnline Store</title>
+    <title>SumanOnline Store! > Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -26,8 +26,9 @@ session_start();
   <body>
     <div>
       <?php
-            require 'header.php';
-           ?>
+
+require 'header.php';
+?>
       <div id="bannerImage">
         <div class="container">
           <center>

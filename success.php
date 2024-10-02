@@ -13,7 +13,6 @@ if (!isset($_SESSION['email'])) {
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
         <title>Order Success > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -115,7 +114,9 @@ require 'header.php';
           to purchase any other item.
         </p>
       </div>
-      <meta http-equiv="refresh" content="5; url=index.php#mainCont" />
+      <h3 style="text-align: center; font-weight:bold;"><a style="text-decoration: none;" href="index.php">Continue Shopping...</a></h3>
+      <br><br><br>
+      <meta http-equiv="refresh" content="8; url=index.php#mainCont" />
     </div>
             <footer class="footer">
                <div class="container">

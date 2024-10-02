@@ -5,7 +5,8 @@ require 'check_if_added.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laptop Section > SumanOnline Shop</title>
+        <link rel="shortcut icon" href="img/lifestyleStore.png" />
+        <title>Mobile Section > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -25,7 +26,7 @@ require 'header.php';
 ?>
             <div class="container">
                 <div class="jumbotron">
-                    <h2><center>Laptop</center></h2>
+                    <h2><center>Mobiles</center></h2>
                     <!-- <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>-->
                 </div>
             </div>
@@ -34,22 +35,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="">
-                                <img src="img/item/laptop/1.png" alt="Laptop">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/l5fnhjk0/dslr-camera/f/t/m/eos-r10-24-2-r10-canon-original-imagg42fsbgv79da.jpeg?q=70&crop=false" width="192px" alt="Canon EOS R10 Mirrorless Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy Book4 Intel Core i5 13th Gen 1335U</h3>
-                                    <!-- <p>(16 GB/512 GB SSD/Windows 11 Home) NP750XGJ-KG2IN / NP750XGJ-LG2IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)</p> -->
-                                     <p><span style="color: red;">-28% off </span> <br>Price: ₹58,990</p>
+                                    <h3>Canon EOS R10 Mirrorless Camera</h3>
+                                    <p>Body with RF-S 18 - 150 mm f/3.5 - 6.3 IS STM Lens Kit  (Black)</p>
+                                     <p><span style="color: red;">-25% off </span> <br>Price: ₹89,990</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(21)) {
+    if (check_if_added_to_cart(29)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=21" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=29" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -62,23 +63,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/laptop/2.png" alt="Sony DSLR">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/dslr-camera/n/p/t/eos-r50-24-2-r50-canon-original-imagngc7syac8pfd.jpeg?q=70&crop=false" width="220px" alt="Canon EOS R50 Mirrorless Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>HP Intel Core i5 12th Gen 1235U (16 GB/512 GB SSD)</h3>
-                                    <!-- <p>Thin and Light Laptop  (15.6 inch, Star Black, 1.69 Kg, With MS Office)</p> -->
-
-                                    <p><span style="color: red;">-20% off </span> <br>Price: ₹49,999</p>
+                                    <h3>Canon EOS R50 Mirrorless Camera</h3>
+                                    <p>Body with RF - S 18 - 45 mm f/4.5 - 6.3 IS STM  (Black)</p>
+                                    <p><span style="color: red;">-19% off </span> <br>Price: ₹60,990</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(22)) {
+    if (check_if_added_to_cart(30)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=22" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=30" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -90,22 +90,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/laptop/3.png" alt="Sony DSLR">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/dslr-camera/1/9/j/d7500-20-9-d7500-nikon-original-imah3ubrv5y2vynk.jpeg?q=70&crop=false" width="220px" alt="NIKON D7500 DSLR Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>MSI Thin 15 Intel Core i5 12th Gen 12450H</h3>
-                                    <!-- <p> (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/144 Hz) Thin 15 B12UCX-1695IN Gaming Laptop  (15.6 Inch, Cosmos Gray, 1.86 Kg)</p> -->
-                                    <p><span style="color: red;">-35% off </span> <br>Price: ₹45,990</p>
+                                    <h3>NIKON D7500 DSLR Camera</h3>
+                                    <p>Camera Body with 18-140 mm Lens  (Black)</p>
+                                    <p><span style="color: red;">-26% off </span> <br>Price: ₹69,990</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(23)) {
+    if (check_if_added_to_cart(31)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=23" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=31" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -117,21 +117,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                            <img src="img/item/laptop/4.png" alt="Laptop">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/k3q76a80/camera/7/9/u/sony-apsc-ilce-6600-b-in5-mirrorless-original-imafm6mtahhva36r.jpeg?q=70&crop=false" width="210px" alt="SONY Alpha ILCE-6600 APS-C Mirrorless Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen 12450H</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹12,750</p>
+                                    <h3>SONY Alpha ILCE-6600 APS-C Mirrorless Camera</h3>
+                                    <p>Body Only Featuring Eye AF and 4K movie recording  (Black)</p>
+                                    <p><span style="color: green;">Special price </span><br><span style="color: red;">-51% off </span> <br>Price: ₹62,990</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(24)) {
+    if (check_if_added_to_cart(32)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=24" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=32" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -145,21 +146,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/v/v/gaming-a15-gaming-laptop-asus-original-imah4bzzrdd6vuve.jpeg?q=70&crop=false" width="170px" alt="ASUS TUF Gaming">
+                                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgPuL9YJG5xDud-fDtCOe3kytKleb1WrCks_kgtOARwFdnnF77FyeeqENXoIqx3cQa5WptAY1QR7nnFdlBQivHt6L2nuT0BjN4m0o1TC0uuHfoDuv1IkO11Zo2eG3CVrfu1mH_OtMQM91qM-Tes0s4jDV2MT3ybxeY4JWYvM2oKD4Qkjmzm3eS3qH36Pk4m" width="160" alt="SONY Alpha ILCE-7M4 Full Frame Mirrorless Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>ASUS TUF Gaming A15 AMD Ryzen 7 Octa Core 7435HS</h3>
-                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹60,990</p>
+                                    <h3>SONY Alpha ILCE-7M4 Full Frame Mirrorless Camera</h3>
+                                    <p>Camera Body Featuring Eye AF and 4K movie recording  (Black)</p>
+                                    <p><span style="color: red;">-19% off </span> <br>Price: ₹1,94,490</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(25)) {
+    if (check_if_added_to_cart(33)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=25" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=33" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -171,21 +173,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/k/2/u/-original-imah3zzjkjwumecn.jpeg?q=70&crop=false" width="192px" alt="Titan 201">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/kw9krrk0/dslr-camera/q/l/w/-original-imag8z5wwaqtq9bz.jpeg?q=70&crop=false" width="192px" alt="SONY Alpha ILCE-7M3K Full Frame Mirrorless Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Acer Aspire 7 Intel Core i5 13th Gen 13420H</h3>
-                                    <p><span style="color: red;">-35% off</span> <br>Price: ₹57,990</p>
+                                    <h3>SONY Alpha ILCE-7M3K Full Frame Mirrorless Camera</h3>
+                                    <p>Camera with 28-70 mm Zoom LensFeaturing Eye AF and 4K movie recording  (Black)</p>
+                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹1,41,490</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(26)) {
+    if (check_if_added_to_cart(34)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=26" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=34" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -197,21 +200,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/n/f/y/-original-imagvyw9hqh6srxw.jpeg?q=70&crop=false" width="230px" alt="htm milan">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/dslr-camera/i/o/c/eos-r100-24-1-eos-r100-kit-canon-original-imagqeydhsxgacxp.jpeg?q=70&crop=false" width="200px" alt="Canon R100 Mirrorless Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>MSI Modern 14 Intel Core i5 12th Gen 1235U</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹32,990</p>
+                                    <h3>Canon R100 Mirrorless Camera</h3>
+                                    <p>Camera RF-S 18-45mm f/4.5-6.3 IS STM  (Black)</p>
+                                    <p><span style="color: green;">Special price </span><br><span style="color: red;">-38% off </span> <br>Price: ₹39,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(27)) {
+    if (check_if_added_to_cart(35)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=27" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=35" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -223,21 +227,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/y/6/e/-original-imah4dgwhghr66kw.jpeg?q=70&crop=false" width="210px" alt="vivo T3 Ultra (Frost Green, 256 GB)  (8 GB RAM)">
+                            <img src="https://rukminim2.flixcart.com/image/416/416/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70&crop=false" width="192px" alt="Canon EOS 3000D DSLR Camera">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>ASUS Vivobook 15, with Backlit Keyboard, Intel Core i3 12th Gen</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹33,999</p>
+                                    <h3>Canon EOS 3000D DSLR Camera</h3>
+                                    <p>Camera 1 Body, 18 - 55 mm Lens  (Black)</p>
+                                    <p><span style="color: green;">Special price </span><br><span style="color: red;">-31% off </span> <br>Price: ₹29,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(28)) {
+    if (check_if_added_to_cart(36)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=28" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=36" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -261,7 +266,7 @@ require 'header.php';
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(9)) {
+    if (check_if_added_to_cart(37)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>

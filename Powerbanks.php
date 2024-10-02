@@ -5,7 +5,8 @@ require 'check_if_added.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laptop Section > SumanOnline Shop</title>
+        <link rel="shortcut icon" href="img/lifestyleStore.png" />
+        <title>Mobile Section > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -25,7 +26,7 @@ require 'header.php';
 ?>
             <div class="container">
                 <div class="jumbotron">
-                    <h2><center>Laptop</center></h2>
+                    <h2><center>Mobiles</center></h2>
                     <!-- <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>-->
                 </div>
             </div>
@@ -34,22 +35,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="">
-                                <img src="img/item/laptop/1.png" alt="Laptop">
+                                <img src="img/item/mobile/1.png" alt="SAMSUNG Galaxy F05">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy Book4 Intel Core i5 13th Gen 1335U</h3>
-                                    <!-- <p>(16 GB/512 GB SSD/Windows 11 Home) NP750XGJ-KG2IN / NP750XGJ-LG2IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)</p> -->
-                                     <p><span style="color: red;">-28% off </span> <br>Price: ₹58,990</p>
+                                    <h3>SAMSUNG Galaxy F05</h3>
+                                     <p><span style="color: red;">-51% off </span> <br>Price: ₹28,995</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(21)) {
+    if (check_if_added_to_cart(13)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=21" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=13" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -62,23 +62,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/laptop/2.png" alt="Sony DSLR">
+                                <img src="img/item/mobile/2.png" alt="Sony DSLR">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>HP Intel Core i5 12th Gen 1235U (16 GB/512 GB SSD)</h3>
-                                    <!-- <p>Thin and Light Laptop  (15.6 inch, Star Black, 1.69 Kg, With MS Office)</p> -->
-
-                                    <p><span style="color: red;">-20% off </span> <br>Price: ₹49,999</p>
+                                    <h3>SAMSUNG Galaxy S23 5G</h3>
+                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹17,500</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(22)) {
+    if (check_if_added_to_cart(14)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=22" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=14" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -90,22 +88,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/laptop/3.png" alt="Sony DSLR">
+                                <img src="img/item/mobile/3.png" alt="Sony DSLR">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>MSI Thin 15 Intel Core i5 12th Gen 12450H</h3>
-                                    <!-- <p> (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/144 Hz) Thin 15 B12UCX-1695IN Gaming Laptop  (15.6 Inch, Cosmos Gray, 1.86 Kg)</p> -->
-                                    <p><span style="color: red;">-35% off </span> <br>Price: ₹45,990</p>
+                                    <h3>SAMSUNG Galaxy M34 5G</h3>
+                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹9,995</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(23)) {
+    if (check_if_added_to_cart(15)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=23" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=15" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -117,21 +114,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                            <img src="img/item/laptop/4.png" alt="Laptop">
+                                <img src="img/item/mobile/4.png" alt="Olympus">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen 12450H</h3>
+                                    <h3>Motorola Edge 50 Pro 5G</h3>
                                     <p><span style="color: red;">-51% off </span> <br>Price: ₹12,750</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(24)) {
+    if (check_if_added_to_cart(16)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=24" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=16" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -145,21 +142,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/v/v/gaming-a15-gaming-laptop-asus-original-imah4bzzrdd6vuve.jpeg?q=70&crop=false" width="170px" alt="ASUS TUF Gaming">
+                                <img src="img/item/mobile/5.png" alt="Titan 301">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>ASUS TUF Gaming A15 AMD Ryzen 7 Octa Core 7435HS</h3>
-                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹60,990</p>
+                                    <h3>POCO M6 5G (8 GB RAM)</h3>
+                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹7,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(25)) {
+    if (check_if_added_to_cart(17)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=25" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=17" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -171,21 +168,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/k/2/u/-original-imah3zzjkjwumecn.jpeg?q=70&crop=false" width="192px" alt="Titan 201">
+                                <img src="img/item/mobile/6.png" alt="Titan 201">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Acer Aspire 7 Intel Core i5 13th Gen 13420H</h3>
-                                    <p><span style="color: red;">-35% off</span> <br>Price: ₹57,990</p>
+                                    <h3>Motorola Edge 50 Fusion (12 GB RAM)</h3>
+                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹20,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(26)) {
+    if (check_if_added_to_cart(18)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=26" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=18" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -197,21 +194,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/n/f/y/-original-imagvyw9hqh6srxw.jpeg?q=70&crop=false" width="230px" alt="htm milan">
+                                <img src="img/item/mobile/7.png" alt="htm milan">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>MSI Modern 14 Intel Core i5 12th Gen 1235U</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹32,990</p>
+                                    <h3>Nothing Phone (2a) Plus (12 GB RAM)</h3>
+                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹25,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(27)) {
+    if (check_if_added_to_cart(19)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=27" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=19" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -223,21 +220,21 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/y/6/e/-original-imah4dgwhghr66kw.jpeg?q=70&crop=false" width="210px" alt="vivo T3 Ultra (Frost Green, 256 GB)  (8 GB RAM)">
+                            <img src="img/item/mobile/8.png" alt="vivo T3 Ultra (Frost Green, 256 GB)  (8 GB RAM)">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>ASUS Vivobook 15, with Backlit Keyboard, Intel Core i3 12th Gen</h3>
+                                    <h3>vivo T3 Ultra Frost Green (8 GB RAM)</h3>
                                     <p><span style="color: red;">-31% off </span> <br>Price: ₹33,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(28)) {
+    if (check_if_added_to_cart(20)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=28" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=20" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }

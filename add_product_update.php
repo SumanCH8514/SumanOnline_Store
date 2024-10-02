@@ -35,8 +35,8 @@ if (isset($_POST['submit'])) {
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     />
-
-    <title>SumanShop!</title>
+    <link rel="shortcut icon" href="https://sumanonline.com/Photos/apple-touch-icon.png" type="fevicon">
+    <title>Update Product Data > SumanOnline Shop!</title>
   </head>
   <body>
   <div class="container my-3">

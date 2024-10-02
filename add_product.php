@@ -26,6 +26,7 @@ if (isset($_POST['submit'])) {
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     />
+    <link rel="shortcut icon" href="https://sumanonline.com/Photos/apple-touch-icon.png" type="fevicon">
   </head>
   <body>
     <div class="container my-3">
@@ -60,12 +61,12 @@ if (isset($_POST['submit'])) {
           Submit
         </button>
 
-        <button type="button" class="btn btn-primary" name="view">
+        <button type="button" class="btn btn-primary">
           <a href="add_product_view.php" class="text-light" style="text-decoration: none"
             >View Products</a
           >
         </button>
-        <button type="submit" class="btn btn-primary" name="submit" style="background-color: #036aa6;">
+        <button type="submit" class="btn btn-primary" style="background-color: #036aa6;">
           <a href="index.php" class="text-light" style="text-decoration: none"
             >Back to Home</a
           >

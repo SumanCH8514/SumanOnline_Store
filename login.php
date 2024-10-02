@@ -1,6 +1,6 @@
 <?php
-    require 'connection.php';
-    session_start();
+require 'connection.php';
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,12 +22,12 @@
     <body>
         <div>
             <?php
-                require 'header.php';
-            ?>
+require 'header.php';
+?>
             <br><br><br>
            <div class="container">
                 <div class="row">
-                    <div class="col-xs-6 col-xs-offset-3">
+                    <div class="col-xs-10 col-xs-offset-1">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
                                 <h3>LOGIN</h3>
