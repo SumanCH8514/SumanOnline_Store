@@ -9,7 +9,7 @@ session_start();
       href="https://sumanonline.com/Photos/apple-touch-icon.png"
       type="fevicon"
     />
-    <title>SumanOnline Store! > Home</title>
+    <title>SumanOnline Store > Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -35,7 +35,7 @@ require 'header.php';
             <div id="bannerContent">
               <h1>We're On sell.</h1>
               <p>
-                Flat 40% - 90% OFF on all premium brands. <br />Only On
+                Flat 40% - 90% OFF on all all brands. <br />Only On
                 <b>SumanOnline Store</b>
               </p>
               <a href="#mainCont" class="btn btn-danger">Shop Now</a>
@@ -62,7 +62,7 @@ require 'header.php';
             <div class="item">
               <img src="img/item/1.png" alt="Camera" />
               <h4>Mobile</h4>
-              <p>Modern new Technology Camera</p>
+              <p>Modern new Technology Mobile</p>
             </div>
           </div>
           </a>
@@ -71,7 +71,7 @@ require 'header.php';
             <div class="item">
               <img src="img/item/3.png" alt="Camera" />
               <h4>Laptop</h4>
-              <p>Modern new Technology Camera</p>
+              <p>Modern new Technology Laptop</p>
             </div>
           </div>
           </a>
@@ -86,7 +86,7 @@ require 'header.php';
                 <div class="item">
                     <img src="img/item/5.png" alt="Camera">
                     <h4>Headphones</h4>
-                    <p>Modern new Technology Camera</p>
+                    <p>Modern new Technology Headphones</p>
                 </div>
                 <!-- <div class="item"></div>
                 <div class="item"></div> -->
@@ -97,7 +97,7 @@ require 'header.php';
             <div class="item">
                     <img src="img/item/6.png"  alt="Camera">
                     <h4>Earbuds</h4>
-                    <p>Modern new Technology Camera</p>
+                    <p>Modern new Technology Earbuds</p>
                 </div>
             </div>
             </a>
@@ -106,7 +106,7 @@ require 'header.php';
             <div class="item">
                     <img src="img/item/7.png" alt="Camera">
                     <h4>Neckband Headphones</h4>
-                    <p>Modern new Technology Camera</p>
+                    <p>Modern new Technology Neckband</p>
                 </div>
             </div>
             </a>
@@ -120,7 +120,7 @@ require 'header.php';
                     <div class="item">
                         <img src="img/item/8.png" alt="Camera">
                         <h4>Mobile Charger</h4>
-                        <p>Modern new Technology Camera</p>
+                        <p>Modern new Technology Charger</p>
                     </div>
                     </a>
                     <!-- <div class="item"></div>
@@ -131,7 +131,7 @@ require 'header.php';
                 <div class="item">
                         <img src="img/item/9.png"  alt="Camera">
                         <h4>Charging Cables</h4>
-                        <p>Modern new Technology Camera</p>
+                        <p>Modern new Technology Cables</p>
                     </div>
                     </a>
                 </div>
@@ -140,7 +140,7 @@ require 'header.php';
                 <div class="item">
                         <img src="img/item/10.png" alt="Camera">
                         <h4>Powerbanks</h4>
-                        <p>Modern new Technology Camera</p>
+                        <p>Modern new Technology Powerbanks</p>
                     </div>
                 </div>
                 </a>
@@ -150,7 +150,7 @@ require 'header.php';
       <footer class="footer">
         <div class="container">
           <center>
-            <p>
+            <p id="vnnnnv">
               Copyright &copy
               <a href="https://SumanOnline.Com">SumanOnline Store </a>| All
               Rights Reserved.

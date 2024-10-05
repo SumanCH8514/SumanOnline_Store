@@ -6,8 +6,8 @@ session_destroy();
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="shortcut icon" href="img/lifestyleStore.png" />
-    <title>SumanOnline Shop</title>
+    <link rel="shortcut icon" href="https://sumanonline.com/Photos/apple-touch-icon.png" />
+    <title>Logout > SumanOnline Shop</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- latest compiled and minified CSS -->
@@ -43,6 +43,9 @@ session_destroy();
         width: 300px;
         margin: 5px auto;
       }
+      #main h3 a{
+          text-decoration: none;
+        }
       @media screen and (max-width: 340px) {
         #main img {
           width: 100px;
@@ -50,6 +53,7 @@ session_destroy();
         #main h1 {
           font-size: 10px;
         }
+
       }
     </style>
   </head>
@@ -67,6 +71,10 @@ require 'header.php';
           </h3>
         </div>
       </div>
+      <br><br><br>
+      <h4 style="text-align: center;">Redirecting you to Homepage...</h4>
+      <meta http-equiv="refresh" content="5; url=index.php" />
+      <br>
       <footer class="footer">
         <div class="container">
           <center>

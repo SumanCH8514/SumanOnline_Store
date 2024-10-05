@@ -46,7 +46,7 @@ require 'header.php';
                                     </div>
                                 </form>
                             </div>
-                            <div class="panel-footer">Don't have an account yet? <a href="signup.php">Register</a></div>
+                            <div class="panel-footer">New to SumanOnline Store? <a href="signup.php">Create an account</a></div>
                         </div>
                     </div>
                 </div>

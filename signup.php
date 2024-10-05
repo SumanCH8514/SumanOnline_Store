@@ -22,6 +22,19 @@ if (isset($_SESSION['email'])) {
         <!-- External CSS -->
         <link rel="shortcut icon" href="https://sumanonline.com/Photos/apple-touch-icon.png" type="fevicon">
         <link rel="stylesheet" href="css/style.css" type="text/css">
+        <style>
+            #vvvvb a {
+            color: white;
+
+            }
+            .form-group{
+                display: flex;
+                gap: 20px;
+            }
+            .form-group p{
+               margin-top: 7px;
+            }
+        </style>
     </head>
     <body>
         <div>
@@ -35,7 +48,7 @@ require 'header.php';
                         <h1><b>SIGN UP</b></h1>
                         <form method="post" action="user_registration_script.php">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="name" placeholder="Name" required="true">
+                                <input type="text" class="form-control" name="name" placeholder="Name" required="true" autocomplete="given-name">
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" name="email" placeholder="Email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
@@ -54,6 +67,10 @@ require 'header.php';
                             </div>
                             <div class="form-group">
                                 <input type="submit" class="btn btn-primary" value="Sign Up">
+                                <p>Existing User? <a href="login.php"><b>Log in</b></a></p>
+                                <!-- <button type="button" class="btn btn-primary" id="vvvvb">
+          <a href="login.php" style="text-decoration:none">Existing User? Log in</a>
+        </button> -->
                             </div>
                         </form>
                     </div>

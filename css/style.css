@@ -117,6 +117,7 @@ p {
   text-decoration: none;
   color: black;
 }
+
 /* 000000000000000 */
 
 /* 000000000000000 */
@@ -143,6 +144,10 @@ p {
   }
   .footer {
     margin-top: 5px;
+  }
+  #vnnnnv {
+    /* font-size: 0.8rem; */
+    visibility: hidden;
   }
 }
 @media (min-width: 641px) {

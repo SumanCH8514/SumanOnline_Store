@@ -6,7 +6,7 @@ require 'check_if_added.php';
 <html>
     <head>
         <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Mobile Section > SumanOnline Shop</title>
+        <title>Overhead Headphones Section > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -26,7 +26,7 @@ require 'header.php';
 ?>
             <div class="container">
                 <div class="jumbotron">
-                    <h2><center>Mobiles</center></h2>
+                    <h2><center>Overhead Headphones</center></h2>
                     <!-- <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>-->
                 </div>
             </div>
@@ -35,21 +35,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="">
-                                <img src="img/item/mobile/1.png" alt="SAMSUNG Galaxy F05">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/4/i/8/-original-imagrh3tgjpjkay5.jpeg?q=70&crop=false" width="192px" alt="JBL Tune 770NC Active Noise Cancelling">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy F05</h3>
-                                     <p><span style="color: red;">-51% off </span> <br>Price: ₹28,995</p>
+                                    <h3>JBL Tune 770NC Active Noise Cancelling</h3>
+                                    <p>70Hr Playtime, Fast Pair & Multi Connect Bluetooth  (Blue, On the Ear)</p>
+                                     <p><span style="color: red;">-51% off </span> <br>Price: ₹5,499</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(13)) {
+    if (check_if_added_to_cart(37)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=13" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=37" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -62,21 +63,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/2.png" alt="Sony DSLR">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/ksw4ccw0/headphone/w/g/r/rockerz-450-boat-original-imag6cqqh49wjfy5.jpeg?q=70&crop=false" width="192px" alt="boAt Rockerz 450 w/ 40mm Drivers">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy S23 5G</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹17,500</p>
+                                    <h3>boAt Rockerz 450 w/ 40mm Drivers</h3>
+                                    <p>15 HRS Playback, Soft Padded Earcups Bluetooth  (Luscious Black, On the Ear)</p>
+                                    <p><span style="color: red;">-62% off </span> <br>Price: ₹1,498</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(14)) {
+    if (check_if_added_to_cart(38)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=14" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=38" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -88,21 +90,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/3.png" alt="Sony DSLR">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/kz4gh3k0/headphone/c/v/r/-original-imagb7bmhdgghzxq.jpeg?q=70&crop=false" width="210px" alt="boAt Nirvanaa 751 ANC Hybrid">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy M34 5G</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹9,995</p>
+                                    <h3>boAt Nirvanaa 751 ANC Hybrid Active Noise Cancellation</h3>
+                                    <p>Active Noise Cancellation Bluetooth  (Bold Blue, On the Ear)</p>
+                                    <p><span style="color: red;">-64% off </span> <br>Price: ₹2,798</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(15)) {
+    if (check_if_added_to_cart(39)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=15" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=39" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -114,21 +117,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/4.png" alt="Olympus">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/y/e/g/-original-imagrh3th8hhnvf4.jpeg?q=70&crop=false" width="192px" alt="BL Tune 770NC Active Noise Cancelling">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Motorola Edge 50 Pro 5G</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹12,750</p>
+                                    <h3>JBL Tune 770NC Active Noise Cancelling</h3>
+                                    <p>70Hr Playtime, Fast Pair & Multi Connect Bluetooth Gaming  (Black, On the Ear)</p>
+                                    <p><span style="color: red;">-45% off </span> <br>Price: ₹5,497</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(16)) {
+    if (check_if_added_to_cart(40)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=16" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=40" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -142,21 +146,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/5.png" alt="Titan 301">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/i/x/x/wh-ch510-sony-original-imagz5r5qqrsfteq.jpeg?q=70&crop=false" width="192px" alt="SONY WH-CH520 with 50 Hrs Playtime">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>POCO M6 5G (8 GB RAM)</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹7,999</p>
+                                    <h3>SONY WH-CH520 with 50 Hrs Playtime</h3>
+                                    <p>DSEE Upscale, Multipoint Connection/Dual Pairing Bluetooth (Black, On the Ear)</p>
+                                    <p><span style="color: red;">-33% off </span> <br>Price: ₹3,988</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(17)) {
+    if (check_if_added_to_cart(41)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=17" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=41" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -168,21 +173,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/6.png" alt="Titan 201">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/i/u/q/-original-imah4axkreh3thcg.jpeg?q=70&crop=false" width="192px" alt="Boult Q 70Hrs Battery, ENC Mic, 40mm Boosted Drivers">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Motorola Edge 50 Fusion (12 GB RAM)</h3>
-                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹20,999</p>
+                                    <h3>Boult Q ENC Mic</h3>
+                                    <p> 70 Hrs Playtime, 40mm Boosted Drivers, 4 EQ Modes, Supreme Bass, 5.4v Bluetooth & Wired (Beige, On the Ear)</p>
+                                    <p><span style="color: red;">-70% off </span> <br>Price: ₹1,799</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(18)) {
+    if (check_if_added_to_cart(42)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=18" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=42" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -194,21 +200,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/7.png" alt="htm milan">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/ki3gknk0/headphone/0/y/t/cassette-wireless-skullcandy-original-imafxyhjqffbgf75.jpeg?q=70&crop=false" width="192px" alt="Skullcandy Cassette Wireless Headphones">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Nothing Phone (2a) Plus (12 GB RAM)</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹25,999</p>
+                                    <h3>Skullcandy Cassette Wireless Headphones</h3>
+                                    <p>22 Hr Battery,Microphone,works with iPhone Android Bluetooth  (Black, On the Ear, On the Ear)</p>
+                                    <p><span style="color: red;">-75% off </span> <br>Price: ₹1,999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(19)) {
+    if (check_if_added_to_cart(43)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=19" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=43" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -220,21 +227,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                            <img src="img/item/mobile/8.png" alt="vivo T3 Ultra (Frost Green, 256 GB)  (8 GB RAM)">
+                            <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/z/f/q/zeb-duke-2-wireless-headphone-with-mic-32-h-playback-call-original-imagg43rmeradmg4.jpeg?q=70&crop=false" width="100px" alt="ZEBRONICS Zeb-Duke 2">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>vivo T3 Ultra Frost Green (8 GB RAM)</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹33,999</p>
+                                    <h3>ZEBRONICS Zeb-Duke 2</h3>
+                                    <p>with 60h Backup, BT v5.4, Gaming Mode, ENC, Deep Bass, Dual Pairing Bluetooth  (Blue, On the Ear)</p>
+                                    <p><span style="color: red;">-59% off </span> <br>Price: ₹899</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(20)) {
+    if (check_if_added_to_cart(44)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=20" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=44" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -258,7 +266,7 @@ require 'header.php';
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(9)) {
+    if (check_if_added_to_cart(45)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>

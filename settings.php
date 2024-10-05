@@ -1,14 +1,13 @@
 <?php
-    session_start();
-    require 'connection.php';
-    if(!isset($_SESSION['email'])){
-        header('location:index.php');
-    }
+session_start();
+require 'connection.php';
+if (!isset($_SESSION['email'])) {
+    header('location:index.php');
+}
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
         <title>Setting > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,16 +24,16 @@
     <body>
         <div>
             <?php
-                require 'header.php';
-            ?>
+require 'header.php';
+?>
             <br>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4">
+                    <div class="col-xs-8 col-xs-offset-2">
                         <h1>Change Password</h1>
                         <form method="post" action="setting_script.php">
                             <div class="form-group">
-                                <input type="password" class="form-control" name="oldPassword" placeholder="Old Password">
+                                <input type="password" class="form-control" name="oldPassword" placeholder="Current Password">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" name="newPassword" placeholder="New Password">
@@ -43,7 +42,7 @@
                                 <input type="password" class="form-control" name="retype" placeholder="Re-type new password">
                             </div>
                             <div class="form-group">
-                                <input type="submit" class="btn btn-primary" value="Change">
+                                <input type="submit" class="btn btn-primary" value="Change Password">
                             </div>
                         </form>
                     </div>

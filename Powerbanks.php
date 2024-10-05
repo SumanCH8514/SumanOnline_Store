@@ -6,7 +6,7 @@ require 'check_if_added.php';
 <html>
     <head>
         <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Mobile Section > SumanOnline Shop</title>
+        <title>Powerbanks Section > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -26,7 +26,7 @@ require 'header.php';
 ?>
             <div class="container">
                 <div class="jumbotron">
-                    <h2><center>Mobiles</center></h2>
+                    <h2><center>Powerbanks</center></h2>
                     <!-- <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>-->
                 </div>
             </div>
@@ -35,21 +35,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="">
-                                <img src="img/item/mobile/1.png" alt="SAMSUNG Galaxy F05">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/x/0/a/-original-imagw4pwhfgbj9mg.jpeg?q=70&crop=false" width="130px" alt="boAt 20000 mAh 22.5 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy F05</h3>
-                                     <p><span style="color: red;">-51% off </span> <br>Price: ₹28,995</p>
+                                    <h3>boAt 20000 mAh 22.5 W Power Bank</h3>
+                                    <p>(Burgundy, Lithium Polymer, Fast Charging, Quick Charge 3.0, Power Delivery 3.0 for Mobile, Tablet)</p>
+                                     <p><span style="color: red;">-68% off </span> <br>Price: ₹1,399</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(13)) {
+    if (check_if_added_to_cart(78)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=13" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=78" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -62,21 +63,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/2.png" alt="Sony DSLR">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/a/c/x/-original-imah45heessfc5jg.jpeg?q=70&crop=false" width="83px" alt="Mi 20000 mAh 33 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy S23 5G</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹17,500</p>
+                                    <h3>Mi 20000 mAh 33 W Power Bank</h3>
+                                    <p>(Black, Lithium-ion, Power Delivery 3.0 for Mobile, Earbuds, Speaker, Smartwatch, Trimmer, Tablet)</p>
+                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹1,799</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(14)) {
+    if (check_if_added_to_cart(79)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=14" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=79" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -88,21 +90,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/3.png" alt="Sony DSLR">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/u/q/f/-original-imagymk3ua34tdvd.jpeg?q=70&crop=false" width="70px" alt="Ambrane 10000 mAh 12 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>SAMSUNG Galaxy M34 5G</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹9,995</p>
+                                    <h3>Ambrane 10000 mAh 12 W Power Bank</h3>
+                                    <p>Compact Pocket Size Power Bank  (Black, Lithium Polymer, Fast Charging for Mobile)</p>
+                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹599</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(15)) {
+    if (check_if_added_to_cart(80)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=15" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=80" class="btn btn-block btn-primary" name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -114,21 +117,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/4.png" alt="Olympus">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/d/q/c/luxcell-b-10000-por-2090-portronics-original-imahymzjmgzpezfd.jpeg?q=70&crop=false" width="75px"  alt="Portronics 10000 mAh 22.5 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Motorola Edge 50 Pro 5G</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹12,750</p>
+                                    <h3>Portronics 10000 mAh 22.5 W PB</h3>
+                                    <p>10000 mAh 22.5 W Power Bank  (Green, Lithium Polymer, Fast Charging for Mobile)</p>
+                                    <p><span style="color: red;">-63% off </span> <br>Price: ₹649</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(16)) {
+    if (check_if_added_to_cart(81)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=16" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=81" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -142,21 +146,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/5.png" alt="Titan 301">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/m/2/2/-original-imagymk38bds9yx7.jpeg?q=70&crop=false" width="145px" alt="Ambrane 20000 mAh 10.5 W PB">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>POCO M6 5G (8 GB RAM)</h3>
-                                    <p><span style="color: red;">-51% off </span> <br>Price: ₹7,999</p>
+                                    <h3>Ambrane 20000 mAh 10.5 W PB</h3>
+                                    <p>Compact Pocket Size Power Bank  (Green, Lithium Polymer, Fast Charging for Earbuds)</p>
+                                    <p><span style="color: red;">-61% off </span> <br>Price: ₹899</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(17)) {
+    if (check_if_added_to_cart(82)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=17" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=82" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -168,21 +173,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/6.png" alt="Titan 201">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/x/m/6/-original-imah3h9mrzhwz5mg.jpeg?q=70&crop=false" width="205px" alt="Intex 20000 mAh 12 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Motorola Edge 50 Fusion (12 GB RAM)</h3>
-                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹20,999</p>
+                                    <h3>Intex 20000 mAh 12 W Power Bank</h3>
+                                    <p>(Creamy White, Lithium Polymer, Fast Charging for Mobile)</p>
+                                    <p><span style="color: red;">-62% off </span> <br>Price: ₹999</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(18)) {
+    if (check_if_added_to_cart(83)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=18" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=83" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -194,21 +200,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                                <img src="img/item/mobile/7.png" alt="htm milan">
+                                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/power-bank/q/x/b/-original-imagzkeqhzhrbfg5.jpeg?q=70&crop=false" width="225px" alt="DURACELL 20000 mAh 22.5 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>Nothing Phone (2a) Plus (12 GB RAM)</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹25,999</p>
+                                    <h3>DURACELL 20000 mAh 22.5 W PB</h3>
+                                    <p>22.5 W Power Bank  (Multicolor, Lithium-ion, Fast Charging for Mobile)</p>
+                                    <p><span style="color: red;">-21% off </span> <br>Price: ₹2,799</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(19)) {
+    if (check_if_added_to_cart(84)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=19" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=84" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -220,21 +227,22 @@ require 'header.php';
                     <div class="col-md-3 col-sm-6">
                         <div class="thumbnail">
                             <a href="cart.php">
-                            <img src="img/item/mobile/8.png" alt="vivo T3 Ultra (Frost Green, 256 GB)  (8 GB RAM)">
+                            <img src="https://rukminim2.flixcart.com/image/416/416/kd7pevk0/power-bank/s/n/g/power-bank-10000-pb100lzm-redmi-original-imafu5entn9mvccq.jpeg?q=70&crop=false" width="120px" alt="REDMI 20000 mAh 18 W Power Bank">
                             </a>
                             <center>
                                 <div class="caption">
-                                    <h3>vivo T3 Ultra Frost Green (8 GB RAM)</h3>
-                                    <p><span style="color: red;">-31% off </span> <br>Price: ₹33,999</p>
+                                    <h3>REDMI 20000 mAh 18 W Power Bank</h3>
+                                    <p>18 W Power Bank  (Black, Lithium Polymer, Fast Charging for Mobile)</p>
+                                    <p><span style="color: red;">-46% off </span> <br>Price: ₹1699</p>
                                     <?php if (!isset($_SESSION['email'])) {?>
                                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                         <?php
 } else {
-    if (check_if_added_to_cart(20)) {
+    if (check_if_added_to_cart(85)) {
         echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
     } else {
         ?>
-                                                <a href="cart_add.php?id=20" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
+                                                <a href="cart_add.php?id=85" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
                                                 <?php
 }
 }
@@ -244,112 +252,6 @@ require 'header.php';
                         </div>
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="thumbnail">
-                            <a href="cart.php">
-                                <img src="https://m.media-amazon.com/images/I/810r4UYHrEL._SX679_.jpg" alt="Raymond shirt">
-                            </a>
-                            <center>
-                                <div class="caption">
-                                    <h3>SWISS Stainless Steel Black Watch</h3>
-                                    <p><span style="color: red;">-80% off </span> <br>Price: ₹399</p>
-                                    <?php if (!isset($_SESSION['email'])) {?>
-                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
-                                        <?php
-} else {
-    if (check_if_added_to_cart(9)) {
-        echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
-    } else {
-        ?>
-                                                <a href="cart_add.php?id=9" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
-                                                <?php
-}
-}
-?>
-                                </div>
-                            </center>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="thumbnail">
-                            <a href="cart.php">
-                                <img src="https://m.media-amazon.com/images/I/91SI-aSfIcL._SX679_.jpg" alt="Charles shirt">
-                            </a>
-                            <center>
-                                <div class="caption">
-                                    <h3>Charles Raymond Bling-ed Watch</h3>
-                                     <p><span style="color: red;">-80% off </span> <br>Price: ₹6,912</p>
-                                    <?php if (!isset($_SESSION['email'])) {?>
-                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
-                                        <?php
-} else {
-    if (check_if_added_to_cart(10)) {
-        echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
-    } else {
-        ?>
-                                                <a href="cart_add.php?id=10" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
-                                                <?php
-}
-}
-?>
-                                </div>
-                            </center>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="thumbnail">
-                            <a href="cart.php">
-                                <img src="https://m.media-amazon.com/images/I/71QoSMBhfVL._SX679_.jpg" alt="HXR">
-                            </a>
-                            <center>
-                                <div class="caption">
-                                    <h3>Fossil Analog White Dial Men's Watch</h3>
-                                     <p><span style="color: red;">-80% off </span> <br>Price: ₹14,495</p>
-                                    <?php if (!isset($_SESSION['email'])) {?>
-                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
-                                        <?php
-} else {
-    if (check_if_added_to_cart(11)) {
-        echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
-    } else {
-        ?>
-                                                <a href="cart_add.php?id=11" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
-                                                <?php
-}
-}
-?>
-                                </div>
-                            </center>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="thumbnail">
-                            <a href="cart.php">
-                                <img src="https://m.media-amazon.com/images/I/61InZfmdTeL._SX679_.jpg" alt="PINK">
-                            </a>
-                            <center>
-                                <div class="caption">
-                                    <h3>DIOLLO Analog Mechanical Watch</h3>
-                                     <p><span style="color: red;">-80% off </span> <br>Price: ₹7,299</p>
-                                    <?php if (!isset($_SESSION['email'])) {?>
-                                        <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
-                                        <?php
-} else {
-    if (check_if_added_to_cart(12)) {
-        echo '<a href="#" class=btn btn-block btn-success disabled>Added to cart</a>';
-    } else {
-        ?>
-                                                <a href="cart_add.php?id=12" class="btn btn-block btn-primary " name="add" value="add" class="btn btn-block btr-primary">Add to cart</a>
-                                                <?php
-}
-}
-?>
-                                </div>
-                            </center>
-                        </div>
-                    </div>
-                </div>-->
             </div>
             <br><br><br><br><br><br><br><br>
            <footer class="footer">

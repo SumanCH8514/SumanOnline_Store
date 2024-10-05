@@ -27,7 +27,7 @@ if ($no_of_user_products == 0) {
 <html>
     <head>
         <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Cart > SumanOnline Shop</title>
+        <title>Shopping Cart > SumanOnline Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->

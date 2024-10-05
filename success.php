@@ -106,9 +106,10 @@ require 'header.php';
         <p>
           You Have Selected Pay On Delivery <strong>(COD)</strong>. <br />
           Your Package will be Delivered within 7 days. <br />
+          Check your registered mail ID for further details. <br>
           <strong>Team SumanOnline Store</strong>
           <br />
-          Thank you for shopping with us. <br /><a href="index.php"
+          Thank you for shopping with us. <br /><a href="index.php#mainCont"
             >Click here</a
           >
           to purchase any other item.
@@ -116,7 +117,7 @@ require 'header.php';
       </div>
       <h3 style="text-align: center; font-weight:bold;"><a style="text-decoration: none;" href="index.php">Continue Shopping...</a></h3>
       <br><br><br>
-      <meta http-equiv="refresh" content="8; url=index.php#mainCont" />
+      <meta http-equiv="refresh" content="8; url=index.php" />
     </div>
             <footer class="footer">
                <div class="container">
